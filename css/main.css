@@ -152,3 +152,50 @@ body {
 	border: 50%;
 	padding: 5px 8px;
 }
+
+.animated1 {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated2 {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@media(max-width: 768px){
+	.features {
+		height: 0px;
+	}
+
+	.item i, h4 {
+		color: white;
+	}
+
+	.item p {
+		display: none;
+	}
+}
+
+@media(max-width: 450px) {
+	.features {
+		display: none;
+	}
+}
+
+@media(max-width: 331px) {
+	.header h2 {
+		display: none;
+	}
+
+	.navigation ul {
+		display: block;
+		margin-top: 5px;
+		padding: 0px;
+	}
+}
+
